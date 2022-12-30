@@ -12,10 +12,26 @@
 <body class="page">
   <header class="header">
     <img src="./images/__logo.png" alt="Россия" class="header__logo">
-    <input type="radio" name="lang" value="Ru" checked class="header__lang-link">Ru</input>
-    <input type="radio" name="lang" value="En" class="header__lang-link">En</input>
+    <div>
+      <label for="ru" class="header__lang-link">
+        <input type="radio" name="lang" id="ru" value="Ru" checked class="header__lang-form"></input>
+        <span class="header__lang-pseudo-form">Ru</span>
+      </label>
+      <label for="en" class="header__lang-link">
+        <input type="radio" name="lang" id="en" value="En" class="header__lang-form"></input>
+        <span class="header__lang-pseudo-form">En</span>
+      </label>
+    </div>
   </header>
   <main>
+    <section class="lead">
+      <h1 class="lead__title">Путешествия по России</h1>
+      <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+      <div class="lead__image">
+        <img src="./images/Vector 2.8 (Stroke).png" alt="Путь">
+      </div>
+      <p class="lead__caption">ваша полка — верхняя</p>
+    </section>
   </main>
   <footer>
   </footer>
