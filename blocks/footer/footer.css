@@ -1,7 +1,6 @@
-.header {
+.footer {
   width: 100%;
-  padding-bottom: 48px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
 }
