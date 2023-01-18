@@ -5,3 +5,7 @@
   line-height: 22px;
   text-align: left;
 }
+
+.place__website-link:hover {
+  cursor: pointer;
+}

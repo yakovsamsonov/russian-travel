@@ -12,3 +12,10 @@
 .header__lang-form:checked + .header__lang-pseudo-form {
   border-bottom: #fff solid 1px;
 }
+
+@media screen and (max-width: 760px) {
+  .header__lang-pseudo-form {
+    line-height: 20px;
+    font-size: 18px;
+  }
+}
