@@ -1,4 +1,5 @@
 .place__website-link {
+  display: block;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
