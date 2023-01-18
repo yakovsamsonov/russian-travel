@@ -1,0 +1,12 @@
+.cover {
+  position: relative;
+  margin: 92px auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1184px;
+  max-height: 720px;
+}
+
+.cover:hover {
+  opacity: 0.33;
+}
