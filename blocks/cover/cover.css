@@ -9,3 +9,15 @@
 .cover:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 760px) {
+  .cover {
+    margin: 65px auto;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1020px) {
+  .cover {
+    margin: 89px auto;
+  }
+}
