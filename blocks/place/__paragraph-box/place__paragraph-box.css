@@ -4,3 +4,10 @@
   list-style-type: none;
   align-self: start;
 }
+
+@media screen and (max-width: 760px) {
+  .place__paragraph-box {
+    margin: 0 auto;
+    width: 90%;
+  }
+}

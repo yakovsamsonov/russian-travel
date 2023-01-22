@@ -1,6 +1,22 @@
 .header__lang-link {
   box-sizing: border-box;
-  width: 28px;
-  height: 30px;
   margin-left: 18px;
+  color: #fff;
+  line-height: 28px;
+  font-size: 24px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 760px) {
+  .header__lang-link {
+    line-height: 20px;
+    font-size: 18px;
+  }
 }
