@@ -4,3 +4,10 @@
   list-style-type: none;
   align-self: end;
 }
+
+@media screen and (max-width: 760px) {
+  .place__website-box {
+    margin: 0 auto;
+    width: 90%;
+  }
+}

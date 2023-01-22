@@ -1,5 +1,6 @@
 .page {
   box-sizing: border-box;
+  min-height: 100vh;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   background-color: #2a2c2f;
@@ -8,4 +9,10 @@
   align-items: center;
   padding-top: 28px;
   padding-bottom: 24px;
+}
+
+@media screen and (max-width: 760px) {
+  .page {
+    padding-top: 16px;
+  }
 }

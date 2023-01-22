@@ -10,8 +10,10 @@
 
 @media screen and (max-width: 760px) {
   .place__title {
+    margin: 0 auto;
     line-height: 35px;
     font-size: 32px;
+    width: 90%;
   }
 }
 
