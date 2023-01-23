@@ -5,11 +5,21 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 760px) {
   .intro {
     padding-left: 0;
     margin: 0 auto;
     width: 90%;
+    padding-top: 64px;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1020px) {
+  .intro {
+    padding-left: 0;
+    margin: 0 auto;
+    width: 94%;
+    padding-top: 88px;
   }
 }
 

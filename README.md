@@ -12,7 +12,7 @@
 Проект о путешествиях по России.
 Учебный проект курса Web-разработчик от Яндекс.Практикум
 
-- [Страница доступна по ссылке] - (https://yakovsamsonov.github.io/russian-travel/)
+- [Страница доступна по ссылке](https://yakovsamsonov.github.io/russian-travel/)
 
 **Figma**
 
