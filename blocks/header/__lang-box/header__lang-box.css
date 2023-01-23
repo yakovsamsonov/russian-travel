@@ -1,0 +1,5 @@
+.header__lang-box {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 18px;
+}
